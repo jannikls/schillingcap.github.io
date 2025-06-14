@@ -1,0 +1,63 @@
+body {
+    background: #f8f5ee;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Georgia', serif;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-title {
+    font-size: 3rem;
+    letter-spacing: 0.1em;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    color: #23201a;
+    text-align: center;
+}
+
+.emblem-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.2rem;
+}
+
+.emblem-img {
+    width: 260px;
+    max-width: 80vw;
+    margin-bottom: 0.7rem;
+}
+
+.motto {
+    font-size: 1.15rem;
+    color: #23201a;
+    font-style: italic;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.5rem;
+}
+
+.est {
+    font-size: 1.1rem;
+    color: #23201a;
+    letter-spacing: 0.15em;
+    margin-top: 0.2rem;
+}
+
+@media (max-width: 600px) {
+    .main-title {
+        font-size: 2rem;
+    }
+    .emblem-img {
+        width: 180px;
+    }
+    .motto, .est {
+        font-size: 1rem;
+    }
+}
